@@ -218,7 +218,7 @@ footer {
     min-height: 400px;
     margin-top: -60px;
     margin-right: -20px;
-  }
+}
 
 .container2 {
     display: flex; /* Usamos o flexbox para organizar as sections */
@@ -504,6 +504,7 @@ footer {
 
 .fileira {
     display: flex; /* Coloca os filhos (divs) lado a lado */
+    flex-wrap: wrap;
     gap: 10px; /* Espaçamento entre os quadrados */
 }
 
@@ -836,7 +837,7 @@ footer {
 
     #sobre {
         height: 500px;
-        width: 50%;
+        width: 54%;
     }
     
     #sobre h2 {
@@ -972,9 +973,7 @@ footer {
     }
 
     #sobre {
-        padding: 120px;
         height: auto;
-        width: 45%;
     }
     
     #sobre h2 {
@@ -983,6 +982,13 @@ footer {
     
     #sobre p {
         font-size: 16px;
+    }
+
+    .animacoes-container {
+        max-width: 350px;
+        max-height: 350px;
+        min-width: 350px;
+        min-height: 350px;
     }
 
     .content-wrapper {
@@ -1043,8 +1049,6 @@ footer {
     
     .menu-mobile {
         display: block;
-        position: absolute;
-        
     }
 
     nav ul.show {
@@ -1083,9 +1087,9 @@ footer {
     }
 
     #sobre {
-        padding: 100px;
-        height: auto;
+        padding: 100px 20px;
         width: 90%;
+        height: auto;
     }
     
     #sobre h2 {
@@ -1096,12 +1100,21 @@ footer {
         font-size: 16px;
     }
 
+    .animacoes-container {
+        max-width: 300px;
+        max-height: 300px;
+        min-width: 300px;
+        min-height: 300px;
+    }
+
     #skillsfront {
+        padding: 130px 20px;
         width: 90%;
         height: auto;
     }
 
     #skillsback {
+        padding: 130px 20px;
         width: 90%;
         height: auto;
     }
@@ -1113,29 +1126,48 @@ footer {
     }
 
     #projeto1 {
+        padding: 130px 20px;
         width: 90%;
+        height: auto;
     }
 
     #projeto2 {
+        padding: 130px 20px;
         width: 90%;
+        height: auto;
     }
 
     .imageleft {
-        width: 450px;
-        height: 330px;
+        width: 90%;
+        height: auto;
     }
 
     .imageright {
-        width: 450px;
-        height: 330px;
+        width: 90%;
+        height: auto;
     }
 
     #contato {
+        padding: 130px 20px;
         width: 90%;
+        height: auto;
     }
 
     footer {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .animacoes-container {
+        max-width: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        min-height: 250px;
+    }
+
+    footer {
+        font-size: 14px;
     }
 }
 

@@ -67,7 +67,7 @@ function loadParticles() {
     let particlesConfig = {
         particles: {
             number: { 
-                value: window.innerWidth <= 768 ? 120 : 200 // Reduz para 120 partículas em telas menores
+                value: window.innerWidth <= 768 ? 60 : 200 // Reduz para 60 partículas em telas menores
             },
             size: { value: 1 },
             move: { 
