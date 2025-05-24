@@ -1,6 +1,5 @@
 // Seleciona todos os links do menu
 const menuLinks = document.querySelectorAll("nav ul li a");
-
 const sections = document.querySelectorAll("section");
 
 // Adiciona evento de clique para cada link
@@ -67,7 +66,7 @@ function loadParticles() {
     let particlesConfig = {
         particles: {
             number: { 
-                value: window.innerWidth <= 768 ? 60 : 200 // Reduz para 60 partículas em telas menores
+                value: window.innerWidth <= 768 ? 20 : 200 // Reduz para 20 partículas em telas menores
             },
             size: { value: 1 },
             move: { 

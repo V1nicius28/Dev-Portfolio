@@ -558,8 +558,8 @@ footer {
 
 .btn-icon1-hover,
 .btn-icon1 {
-    width: 32px; /* Ajuste o tamanho da imagem */
-    height: 22px;
+    width: 28px; /* Ajuste o tamanho da imagem */
+    height: 28px;
     margin-right: 7px; /* Espaço entre a imagem e o texto */
     vertical-align: middle;
     transition: filter 0.3s ease-in-out;
@@ -601,14 +601,14 @@ footer {
 .linkedIn:hover .btn-icon2,
 .email:hover .btn-icon3,
 .github:hover .btn-icon2,
-.deploy:hover .btn-icon1 {
+.baixar:hover .btn-icon1 {
     display: none;
 }
 
 .linkedIn:hover .btn-icon2-hover,
 .email:hover .btn-icon3-hover,
 .github:hover .btn-icon2-hover,
-.deploy:hover .btn-icon1-hover {
+.baixar:hover .btn-icon1-hover {
     display: inline;
 }
 
@@ -623,13 +623,13 @@ footer {
     color: #161716;
 }
 
-.deploy {
+.baixar {
     background-color: transparent;
     color: #BBDE1A;
     border: 1px solid #BBDE1A;
 }
 
-.deploy:hover {
+.baixar:hover {
     animation: neonBackground 1.5s infinite alternate;
     color: #161716;
 }
