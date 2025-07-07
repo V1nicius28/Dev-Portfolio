@@ -4,9 +4,10 @@
 # Portfólio 
 Este é meu portfólio web pessoal, desenvolvido com HTML, CSS e JavaScript, que apresenta meus projetos, habilidades e formas de contato de maneira visual e interativa.
 
-Site: https://portfolio-delta-topaz-49.vercel.app/
+Acesse aqui: https://portfolio-delta-topaz-49.vercel.app/
 
-🚀 Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
+
 HTML — estrutura da página
 
 CSS — estilização e layout responsivo
@@ -14,10 +15,11 @@ CSS — estilização e layout responsivo
 JavaScript — animações e funcionalidades interativas
 
 💡 Funcionalidades
-Navegação intuitiva por botões
 
-Mudança de seções com transições suaves
+🔘 Navegação intuitiva por botões
 
-Layout responsivo
+🔄 Transições suaves entre seções
 
-Design com imagens personalizadas
+📱 Layout responsivo para dispositivos móveis
+
+🎨 Design visual com imagens personalizadas
