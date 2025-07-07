@@ -6,7 +6,7 @@ Este é meu portfólio web pessoal, desenvolvido com HTML, CSS e JavaScript, que
 
 Site: https://portfolio-delta-topaz-49.vercel.app/
 
-Tecnologias Utilizadas
+🚀 Tecnologias Utilizadas
 HTML — estrutura da página
 
 CSS — estilização e layout responsivo
