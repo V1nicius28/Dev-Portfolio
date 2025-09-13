@@ -278,6 +278,7 @@ footer {
 .image-container {
     display: flex;
     align-items: center; 
+    flex-wrap: wrap;
     justify-content: center; 
     gap: 50px; 
     color: white;
@@ -715,7 +716,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;  /* Largura da barra de rolagem */
+    width: 8px;  
 }
 
 ::-webkit-scrollbar-track {
@@ -851,10 +852,6 @@ footer {
 
     .tooltip {
         bottom: -90%;
-    }
-
-    #skillsfront {
-        width: 54%;
     }
 
     .frontback {
@@ -999,7 +996,6 @@ footer {
     }
 
     .image-container {
-        flex-wrap: wrap;
         position: relative;
         top: -10px;
     }
@@ -1112,12 +1108,6 @@ footer {
         padding: 130px 20px;
         width: 90%;
         height: auto;
-    }
-
-    .image-container {
-        flex-wrap: wrap;
-        position: relative;
-        top: -10px;
     }
 
     #projeto1 {
