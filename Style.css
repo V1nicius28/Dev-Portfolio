@@ -186,7 +186,7 @@ footer {
     border-radius: 2rem;
     animation: neonGlowBorder 1.5s infinite alternate;
     width: 54%;
-    height: 270px;
+    height: auto;
 }
 
 #sobre h2 {
@@ -247,19 +247,17 @@ footer {
 
 #skillsfront {
     text-align: center;
-    padding: 150px;
+    padding: 50px;
     margin: 0;
-    background-color: #161716;
     border-radius: 2rem 2rem 0rem 0rem;
-    animation: neonGlowBorder 1.5s infinite alternate;
-    width: 54%;
-    height: 230px;
+    width: 64.4%;
+    height: auto;
 }
 
 #skillsfront h2 {
     color: #BBDE1A;
     position: relative;
-    top: -120px;
+    top: -40px;
     font-size: 35px;
 }
 
@@ -288,19 +286,24 @@ footer {
 .image-box {
     position: relative;
     display: inline-block;
+    background-color: #161716;
+    animation: neonGlowBorder 1.5s infinite alternate;
+    border-radius: 2rem;
+    height: auto;
+    width: auto;
+    padding: 20px;  
 }
 
 .image-box p {
-    text-align: center;
-    position: relative;
-    top: -60px;
+    margin: 0 0 80px 0;;
     color: #BBDE1A;
     font-size: 20px;
+    position: static; 
 }
 
 .tooltip {
     position: absolute;
-    bottom: -50%;
+    bottom: -20%;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.39); 
@@ -360,20 +363,19 @@ footer {
 
 #skillsback {
     text-align: center;
-    padding: 150px;
+    padding: 50px;
     margin: 0;
-    background-color: #161716;
+    background-color: transparent;
     color: white; 
     border-radius: 0rem 0rem 2rem 2rem;
-    animation: neonGlowBorder 1.5s infinite alternate;
-    width: 54%;
-    height: 230px;
+    width: 64.4%;
+    height: auto;
 }
 
 #skillsback h2 {
     color: #BBDE1A;
     position: relative;
-    top: -120px;
+    top: -40px;
     font-size: 35px;
 }
 
@@ -742,33 +744,7 @@ footer {
     height: auto;
 }
 
-@media screen and (max-width: 1900px) {
-    #sobre {
-        height: auto;
-    }
-
-    .frontback {
-        width: 80px;
-    }
-
-    .tooltip {
-        bottom: -75%;
-    }
-}
-
 @media screen and (max-width: 1710px) {
-    #sobre {
-        height: auto;
-    }
-
-    .frontback {
-        width: 80px;
-    }
-
-    .tooltip {
-        bottom: -45%;
-    }
-
     .imageleft {
         width: 500px;
         height: 385px;
@@ -848,18 +824,6 @@ footer {
         flex-direction: column; 
         align-items: center; 
         gap: 30px;
-    }
-
-    .tooltip {
-        bottom: -90%;
-    }
-
-    .frontback {
-        width: 70px;
-    }
-    
-    .image-box p {
-        font-size: 18px;
     }
 
     #projeto1 {
@@ -987,19 +951,6 @@ footer {
         gap: 50px;
     }
 
-    #skillsfront {
-        height: auto;
-    }
-
-    #skillsback {
-        height: auto;
-    }
-
-    .image-container {
-        position: relative;
-        top: -10px;
-    }
-
     .frontback {
         width: 60px;
     }
@@ -1099,13 +1050,13 @@ footer {
     }
 
     #skillsfront {
-        padding: 130px 20px;
+        padding: 10px 20px;
         width: 90%;
         height: auto;
     }
 
     #skillsback {
-        padding: 130px 20px;
+        padding: 100px 20px;
         width: 90%;
         height: auto;
     }
