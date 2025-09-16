@@ -1,4 +1,4 @@
-![Captura de Tela (8)](https://github.com/user-attachments/assets/5ad5bdfb-5555-4bf6-b3c1-508ad5a27646)
+<img width="1920" height="938" alt="Captura de Tela (11)" src="https://github.com/user-attachments/assets/ea0fdbfb-3e52-4363-8688-3b6b7421f612" />
 
 
 # Portfólio 
